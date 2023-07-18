@@ -72,12 +72,14 @@ header{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    border: 2px solid #0A0826;
 }
 /* compeny logo end */
 .populer-collection{
     display: flex;
     width: 1440px;
     margin-top: 150px;
+    border: 2px solid #0A0826;
     
 }
 .populer h3{
@@ -99,11 +101,16 @@ header{
     width: 196px;
     margin-bottom: 10px;
 }
+.populer-head{
+    text-align: center;
+  
+}
 .call{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
     margin-top: 70px;
+    border: 2px solid #0A0826;
 }
 .populer-img{
     width: 300px;
@@ -117,5 +124,55 @@ header{
    font-size: 28px;
    font-weight: 700;
    color: #3A3A3A;
-   text-align: center;
+  
+}
+.feaucher-conteiner{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 170px;
+   margin-right: 100px;
+}
+.feature-title{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 20px;
+}
+.feature-description{
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+    width: 500px;
+    margin-bottom: 15px;
+}
+.btn-feature{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border: 0;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.footer-area{
+    background: #0A0826;
+    height: 239px;
+    margin: auto;
+}
+.footer-conteiner{
+    color: #fff;
+    text-align: center;
+   margin: 30px;
+    
+}
+.footer-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-description{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2;
 }
