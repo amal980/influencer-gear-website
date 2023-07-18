@@ -72,15 +72,20 @@ header{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    border: 2px solid #0A0826;
+    
 }
 /* compeny logo end */
-.populer-collection{
+.populer-collection-1{
     display: flex;
-    width: 1440px;
-    margin-top: 150px;
-    border: 2px solid #0A0826;
+    margin-top: 50px;
+   
     
+    
+ 
+    
+}
+.populer{
+    margin: 10px;
 }
 .populer h3{
     font-size: 28px;
@@ -103,27 +108,43 @@ header{
 }
 .populer-head{
     text-align: center;
+    font-size: 28px;
+   font-weight: 700;
+   color: #3A3A3A;
+   
   
 }
 .call{
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+  
     margin-top: 70px;
-    border: 2px solid #0A0826;
+    background: #ededed;
+    margin-left: 40px;
+    width: 100%;
+   
 }
 .populer-img{
     width: 300px;
     height: 256px;
+   
 }
 .collection{
     width: 329px;
-    height: 476px;
+    height: 400px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -40px;
+    font-size: 28px;
+    font-weight: 600px;
 }
 .collection-tittle{
-   font-size: 28px;
-   font-weight: 700;
-   color: #3A3A3A;
+   
+  
   
 }
 .feaucher-conteiner{
@@ -131,8 +152,8 @@ header{
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
-    margin-left: 170px;
-   margin-right: 100px;
+   margin-top: 50px;
+   margin-right: 10px;
 }
 .feature-title{
     font-size: 38px;
@@ -158,12 +179,14 @@ header{
 .footer-area{
     background: #0A0826;
     height: 239px;
-    margin: auto;
+    margin: auto;margin-top: 75px;
 }
 .footer-conteiner{
     color: #fff;
     text-align: center;
    margin: 30px;
+   position: absolute;
+   margin: 80px 0px 0px 500px;
     
 }
 .footer-title{
@@ -175,4 +198,5 @@ header{
     font-size: 14px;
     font-weight: 700;
     line-height: 2;
+  
 }
